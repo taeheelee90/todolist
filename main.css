@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    /*background-color: rgb(237, 240, 219);*/     
+    /*image source: content-pixie-ozZVrtwZ5Fg-unsplash*/ 
+    background-image: url(img/1.jpg); 
+    
+}
+
+/*flexbox container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+/*flex  containers*/
+.container-time{
+    width:43%;
+    text-align: right;
+    font-weight: 700 bold;
+    font-size: 20px ;
+
+}
+
+.container-header{
+    width: 70%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800 bold;    
+}
+
+.container-form{
+    width: 70%;
+    text-align: center;
+    
+}
+
+ul{
+    font-size: 25px;
+}
+
+
+/*input box setting*/
+input{
+    width: 60%;
+    height: 40px;
+    box-shadow: 5px 5px 2px rgb(196, 193, 193);
+    font-size: 18px;
+}
+
+
+/*list setting*/
+.toDoList{
+    list-style-type: none;
+}
+
+
